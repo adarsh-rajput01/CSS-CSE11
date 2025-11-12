@@ -5,6 +5,7 @@ h2{
 p{
     color:aqua;
     text-align: center;
+    font-size: 25px;
 }
 
 .par{
@@ -13,4 +14,27 @@ p{
 
 #ab{
     color:pink;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    color: red;
+    background-color: cadetblue;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 100px;
+    border: 2px solid red;
+}
+
+
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+
+P{
+    color: red;
+    text-align: left;
 }
