@@ -1,22 +1,22 @@
-h2{
-    color:blue;
+h2 {
+    color: blue;
 }
 
-p{
-    color:aqua;
+p {
+    color: aqua;
     text-align: center;
     font-size: 25px;
 }
 
-.par{
-    color:bisque;
+.par {
+    color: bisque;
 }
 
-#ab{
-    color:pink;
+#ab {
+    color: pink;
 }
 
-div{
+div {
     height: 200px;
     width: 200px;
     color: red;
@@ -29,12 +29,12 @@ div{
 }
 
 
-h2{
+h2 {
     color: blueviolet;
     text-align: center;
 }
 
-P{
+P {
     color: red;
     text-align: left;
 }
