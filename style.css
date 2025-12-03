@@ -39,28 +39,30 @@ P {
     text-align: left;
 } */
 
- .container{
-    display: grid;  /* for 2 d*/
-    height: 500px;
+/* .container{
+    /* display: grid;  /* for 2 d*/
+/* height: 500px;
     width: 1080px;
     border: 2px solid black;
     background-color: aqua;
     grid-template-columns: repeat(4,100px);
-    grid-template-rows: repeat(3 ,100px);
-    /* grid-template-areas: 
+    grid-template-rows: repeat(3 ,100px); */
+*/
+/* grid-template-areas: 
     "header header header header"
     "main main . sidebar"
     "footer footer footer footer"; */
-    column-gap:10px;
+/* column-gap:10px;
     row-gap: 10px;
     justify-items: center;
-    align-items: center; 
-    /* place-items: center; */
-    /* justify-content: space-around; */
-    /* justify-content: stretch; */
-    /* justify-content: center;
+    align-items: center;  */
+*/
+/* place-items: center; */
+/* justify-content: space-around; */
+/* justify-content: stretch; */
+/* justify-content: center;
     align-content: center; */
-}
+/* }
 .item{
     height: 100px;
     width: 100px;
@@ -70,7 +72,7 @@ P {
     align-content: center;
     color: white;
     
-}
+} */
 /* .item1{
     grid-area: header;
 
@@ -83,3 +85,72 @@ P {
 .item4{
     grid-area: footer;
 } */
+
+
+/* @media (max-width: 768px) {
+  p {
+    font-size: 25px;
+    background-color: aliceblue;
+  }
+} */
+/* @media (orientation: landscape) {
+  body {
+    background: lightgreen;
+  }
+} */
+
+
+/* .box {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+@media (min-width: 768px) {
+  .box {
+    background-color: red;
+  }
+}
+li {
+  list-style-type: none;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    color: darkblue;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightpink;
+    }
+
+    h1 {
+        color: red;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        color: darkgreen;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        color: navy;
+    }
+}
